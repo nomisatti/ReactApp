@@ -38,5 +38,5 @@ jobs:
       run: npm install -global surge
  
     - name: Deploy to Surge
-      run: surge ./build reactportal.surge.sh --token ${{ secrets.SURGE_TOEKN}}
+      run: surge ./build reactportal.surge.sh --token ${{ secrets.SURGE_TOKEN}}
   
