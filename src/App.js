@@ -6,6 +6,8 @@ function App() {
 
 var unitsMap =  [ "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" ];
 var tensMap =  ['',"", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" ];
+
+
 var number = Number(prompt("Enter any number"));
 number = NumberToWords(number);
 alert(number);
@@ -17,7 +19,7 @@ alert(number);
 }
 
 function NumberToWords (number) {
-
+  var indexof = 0;
   /*
       if (number == 0)
       return "zero";
