@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -41,7 +41,7 @@ var tensMap =  ['',"", "twenty", "thirty", "forty", "fifty", "sixty", "seventy",
   
   if (parseInt(number / 1000) > 0)
   {    
-      if (words != "")
+      if (words !== "")
       words += "and ";
       indexof = parseInt((number / 1000))
       if(indexof>20){
@@ -56,7 +56,7 @@ var tensMap =  ['',"", "twenty", "thirty", "forty", "fifty", "sixty", "seventy",
   }
   if (parseInt(number / 100) > 0)
   {
-      if (words != "")
+      if (words !== "")
       words += "and ";
   
       indexof = parseInt((number / 100))
@@ -66,7 +66,7 @@ var tensMap =  ['',"", "twenty", "thirty", "forty", "fifty", "sixty", "seventy",
   
   if (number > 0)
   {
-      if (words != "")
+      if (words !== "")
           words += "and ";
   
     
