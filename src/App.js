@@ -4,8 +4,6 @@ import './App.css';
 
 function App() {
 
-var unitsMap =  [ "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" ];
-var tensMap =  ['',"", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" ];
 
 
 var number = Number(prompt("Enter any number"));
@@ -19,6 +17,10 @@ alert(number);
 }
 
 function NumberToWords (number) {
+
+  var unitsMap =  [ "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" ];
+var tensMap =  ['',"", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" ];
+
   var indexof = 0;
   /*
       if (number == 0)
