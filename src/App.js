@@ -3,20 +3,20 @@ import React from 'react';
 import './App.css';
 
 function App() {
- <div class="container">
-    <div class="form-group">
-        <label for="number">Number:</label>
-        <input type='text' id='number' class="form-control" placeholder='Enter any Number' onkeyup="NumberToWords()"/>
-    </div>
-
-    <div class="form-group">
-        <label for="words">Words:</label>
-        <input type='text' id='words' class="form-control" />
-    </div>
-</div>  
+ 
   return (
     <div className="App">
-       
+       <div class="container">
+            <div class="form-group">
+                <label for="number">Number:</label>
+                <input type='text' id='number' class="form-control" placeholder='Enter any Number' onkeyup="NumberToWords()"/>
+            </div>
+
+            <div class="form-group">
+                <label for="words">Words:</label>
+                <input type='text' id='words' class="form-control" />
+            </div>
+        </div>  
     </div>
   );
 }
