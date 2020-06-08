@@ -29,7 +29,6 @@ function NumberToWords () {
         var tensMap =  ['',"", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" ];
     
         var indexof = 0;
-        var number = 10;
         var number = document.getElementById('number').value
         if( number >  11111111){
             document.getElementById('words').value = 'Please Enter Number less than 11111111';
